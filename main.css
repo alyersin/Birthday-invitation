@@ -1,0 +1,14 @@
+/*=====WIREFRAME=====*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: url('./Assets/Party-Background-green-with-presents.jpg') no-repeat;
+    background-size: auto;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.125rem;
+    line-height: 1.5;
+    color: #444349;
+}
