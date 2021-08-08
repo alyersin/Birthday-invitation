@@ -28,14 +28,14 @@ body {
 
 .wrapper-one {
     position: relative;
-    top: 20vh;
+    top: 10vh;
 }
 
 @media (min-width: 768px) {
     .wrapper-one {
         width: 100%;
         margin: 0 auto;
-        top: -5vh;
+        top: 0vh;
     }
 }
 
@@ -128,7 +128,7 @@ img:hover {
 }
 
 i {
-    padding-top: 5px;
+    padding-top: 5vh;
     color: green;
 }
 
