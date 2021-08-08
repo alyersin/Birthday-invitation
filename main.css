@@ -127,15 +127,15 @@ img:hover {
     }
 }
 
-i {
-    padding-top: -10px;
+.maps {
     color: green;
 }
 
 @media (min-width: 768px) {
-    i {
+    .maps {
         position: relative;
-        top: -50px;
+        top: -7vh;
+        position: relative;
         color: green;
     }
 }
