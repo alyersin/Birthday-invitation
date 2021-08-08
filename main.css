@@ -9,10 +9,10 @@
 html {}
 
 body {
-    width: 100%;
     min-height: 100vh;
-    border: 5px dashed red;
-    background: url('./Assets/Party-Background-green-with-presents.jpg') no-repeat;
+    display: table;
+    text-align: center;
+    background: url('./Assets/Party-Background-green-with-presents.jpg') no-repeat center;
     font-family: 'Libre Baskerville', serif;
     line-height: 1.5;
     color: #444349;
@@ -20,8 +20,8 @@ body {
 
 h1 {
     position: relative;
-    top: 70px;
-    left: 830px;
+    top: 10px;
+    left: 800px;
     font-family: 'MonteCarlo', cursive;
     font-weight: bold;
     font-size: 2.5rem;
@@ -30,8 +30,8 @@ h1 {
 
 .poezie {
     position: relative;
-    left: 900px;
-    top: 50px;
+    left: 800px;
+    top: 0px;
     font-family: 'Cormorant Garamond', serif;
     font-weight: bold;
     font-size: 1.75rem;
@@ -39,7 +39,7 @@ h1 {
 
 .locatia {
     position: relative;
-    top: 90px;
+    top: 30px;
     left: 810px;
     font-family: 'Cormorant Garamond', serif;
     font-weight: bold;
@@ -56,8 +56,8 @@ img {
 
 .name {
     position: relative;
-    top: -410px;
-    left: 1050px;
+    top: -520px;
+    left: 1000px;
     font-size: 6.75rem;
     color: #FF69B4;
     font-family: 'Great Vibes', cursive;
