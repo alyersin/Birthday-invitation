@@ -102,6 +102,11 @@ h1 {
 img {
     width: 20%;
     border-radius: 50%;
+    transition: transform .2s;
+}
+
+img:hover {
+    transform: scale(1.5);
 }
 
 @media (min-width: 768px) {
@@ -113,4 +118,8 @@ img {
         color: #FF69B4;
         font-family: 'Great Vibes', cursive;
     }
+}
+
+i {
+    font-size="20px"
 }
