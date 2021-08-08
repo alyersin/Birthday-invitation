@@ -5,34 +5,56 @@
 }
 
 body {
+    width: 1920px;
+    height: 1080px;
     background: url('./Assets/Party-Background-green-with-presents.jpg') no-repeat;
-    background-size: auto;
+    background-size: 100%;
     font-family: 'Libre Baskerville', serif;
-    font-size: 1.125rem;
     line-height: 1.5;
     color: #444349;
 }
 
 h1 {
+    position: relative;
+    top: 70px;
+    left: 830px;
     font-family: 'MonteCarlo', cursive;
     font-weight: bold;
-    font-size: 1.75rem;
+    font-size: 2.5rem;
     color: #008B8B;
 }
 
 .poezie {
+    position: relative;
+    left: 900px;
+    top: 50px;
     font-family: 'Cormorant Garamond', serif;
     font-weight: bold;
-    font-size: 1.25rem;
+    font-size: 1.75rem;
 }
 
 .locatia {
+    position: relative;
+    top: 90px;
+    left: 810px;
     font-family: 'Cormorant Garamond', serif;
     font-weight: bold;
-    font-size: 1.25rem;
+    font-size: 1.75rem;
     text-decoration: none;
 }
 
 img {
+    position: relative;
+    top: 400px;
+    left: 1300px;
     border-radius: 50%;
+}
+
+.name {
+    position: relative;
+    top: -380px;
+    left: 1050px;
+    font-size: 6.75rem;
+    color: #FF69B4;
+    font-family: 'Great Vibes', cursive;
 }
