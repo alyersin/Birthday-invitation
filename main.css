@@ -137,5 +137,6 @@ i {
         position: relative;
         top: 0vh;
         color: green;
+        padding-top: 5px;
     }
 }
