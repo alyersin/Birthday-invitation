@@ -59,6 +59,7 @@ body {
     font-weight: bold;
     font-size: 1.25rem;
     line-height: 1.7em;
+    padding-top: 12px;
 }
 
 @media (min-width: 768px) {
@@ -74,6 +75,7 @@ h1 {
     font-weight: bold;
     font-size: 1.75rem;
     color: #FF69B4;
+    padding-top: 12px;
 }
 
 @media (min-width: 768px) {
@@ -89,6 +91,7 @@ h1 {
     font-weight: bold;
     font-size: 1rem;
     text-decoration: none;
+    padding-top: 12px;
 }
 
 @media (min-width: 768px) {
@@ -121,5 +124,5 @@ img:hover {
 }
 
 i {
-    font-size="20px"
+    padding-top: 12px;
 }
