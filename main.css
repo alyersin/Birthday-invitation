@@ -119,6 +119,7 @@ img:hover {
         left: 35%;
         font-size: 9.75rem;
         color: #FF69B4;
+        border-radius: 50%;
         font-family: 'Great Vibes', cursive;
     }
 }
