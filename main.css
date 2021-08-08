@@ -10,18 +10,22 @@ html {}
 
 body {
     min-height: 100vh;
-    display: table;
     text-align: center;
-    background: url('./Assets/Party-Background-green-with-presents.jpg') no-repeat center;
+    background: url('./Assets/Party-Background-green-with-presents.jpg') no-repeat 100% center;
     font-family: 'Libre Baskerville', serif;
     line-height: 1.5;
     color: #444349;
 }
 
+
+/*=====MAIN=====*/
+
+.wrapper-one {
+    width: 100%;
+    margin: 0 auto;
+}
+
 h1 {
-    position: relative;
-    top: 10px;
-    left: 800px;
     font-family: 'MonteCarlo', cursive;
     font-weight: bold;
     font-size: 2.5rem;
@@ -29,18 +33,12 @@ h1 {
 }
 
 .poezie {
-    position: relative;
-    left: 800px;
-    top: 0px;
     font-family: 'Cormorant Garamond', serif;
     font-weight: bold;
     font-size: 1.75rem;
 }
 
 .locatia {
-    position: relative;
-    top: 30px;
-    left: 810px;
     font-family: 'Cormorant Garamond', serif;
     font-weight: bold;
     font-size: 1.75rem;
@@ -48,16 +46,11 @@ h1 {
 }
 
 img {
-    position: relative;
-    top: 400px;
-    left: 1300px;
+    width: 20%;
     border-radius: 50%;
 }
 
 .name {
-    position: relative;
-    top: -520px;
-    left: 1000px;
     font-size: 6.75rem;
     color: #FF69B4;
     font-family: 'Great Vibes', cursive;
