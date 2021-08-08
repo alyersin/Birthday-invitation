@@ -17,6 +17,25 @@
 </head>
 
 <body>
+    <audio id="myAudio" autoplay>
+    <source src="./Assets/yt1s.com - PatStanley  The Lion Sleeps tonight.mp4">
+</audio>
+
+    <script>
+        var audio = document.getElementById("myAudio");
+
+        function getVolume() {
+            alert(audio.volume);
+        }
+
+        function setHalfVolume() {
+            audio.volume = 10;
+        }
+
+        function setFullVolume() {
+            audio.volume = 5;
+        }
+    </script>
 
 
     <div class="wrapper-one">
