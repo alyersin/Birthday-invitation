@@ -9,24 +9,35 @@
 body {
     min-height: 100vh;
     text-align: center;
-    background: url('./Assets/Party-Background-green-with-presents.jpg') no-repeat 100% center;
+    background: url('./Assets/Party-Background-green-with-presents.jpg') no-repeat center;
     font-family: 'Libre Baskerville', serif;
     line-height: 1.5;
     color: #444349;
+}
+
+@media (min-width: 768px) {
+    body {
+        background: url(./Assets/Party-Background-green-with-presents.jpg) no-repeat center/cover;
+    }
 }
 
 
 /*=====MAIN=====*/
 
 .wrapper-one {
-    width: 100%;
-    margin: 0 auto;
+    position: relative;
+    top: 20vh;
+}
+
+@media (min-width: 768px) {
+    .wrapper-one {
+        width: 100%;
+        margin: 0 auto;
+        top: 25vh;
+    }
 }
 
 .name {
-    position: relative;
-    top: 25vh;
-    left: 15%;
     font-size: 3.75rem;
     color: #FF69B4;
     font-family: 'Great Vibes', cursive;
@@ -34,6 +45,9 @@ body {
 
 @media (min-width: 768px) {
     .name {
+        position: relative;
+        top: 25vh;
+        left: 15%;
         font-size: 9.75rem;
         color: #FF69B4;
         font-family: 'Great Vibes', cursive;
@@ -41,22 +55,21 @@ body {
 }
 
 .poezie {
-    position: relative;
-    top: -15vh;
     font-family: 'Cormorant Garamond', serif;
     font-weight: bold;
     font-size: 1.25rem;
+    line-height: 1.7em;
 }
 
 @media (min-width: 768px) {
     .poezie {
+        position: relative;
+        top: -15vh;
         font-size: 1.75rem;
     }
 }
 
 h1 {
-    position: relative;
-    top: -12vh;
     font-family: 'MonteCarlo', cursive;
     font-weight: bold;
     font-size: 1.75rem;
@@ -65,13 +78,13 @@ h1 {
 
 @media (min-width: 768px) {
     h1 {
+        position: relative;
+        top: -12vh;
         font-size: 2.5rem;
     }
 }
 
 .locatia {
-    position: relative;
-    top: -9vh;
     font-family: 'Cormorant Garamond', serif;
     font-weight: bold;
     font-size: 1.75rem;
@@ -80,14 +93,24 @@ h1 {
 
 @media (min-width: 768px) {
     .locatia {
+        position: relative;
+        top: -9vh;
         font-size: 1.75rem;
     }
 }
 
 img {
-    position: relative;
-    top: 25vh;
-    left: 35%;
     width: 20%;
     border-radius: 50%;
+}
+
+@media (min-width: 768px) {
+    img {
+        position: relative;
+        top: 25vh;
+        left: 35%;
+        font-size: 9.75rem;
+        color: #FF69B4;
+        font-family: 'Great Vibes', cursive;
+    }
 }
