@@ -6,8 +6,6 @@
     padding: 0;
 }
 
-html {}
-
 body {
     min-height: 100vh;
     text-align: center;
@@ -27,36 +25,68 @@ body {
 
 .name {
     position: relative;
-    top: 30vh;
-    left: 20%;
-    font-size: 6.75rem;
+    top: 25vh;
+    left: 15%;
+    font-size: 3.75rem;
     color: #FF69B4;
     font-family: 'Great Vibes', cursive;
 }
 
+@media (min-width: 768px) {
+    .name {
+        font-size: 9.75rem;
+        color: #FF69B4;
+        font-family: 'Great Vibes', cursive;
+    }
+}
+
 .poezie {
+    position: relative;
+    top: -15vh;
     font-family: 'Cormorant Garamond', serif;
     font-weight: bold;
-    font-size: 1.75rem;
+    font-size: 1.25rem;
+}
+
+@media (min-width: 768px) {
+    .poezie {
+        font-size: 1.75rem;
+    }
 }
 
 h1 {
+    position: relative;
+    top: -12vh;
     font-family: 'MonteCarlo', cursive;
     font-weight: bold;
-    font-size: 2.5rem;
+    font-size: 1.75rem;
     color: #FF69B4;
 }
 
+@media (min-width: 768px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+}
+
 .locatia {
+    position: relative;
+    top: -9vh;
     font-family: 'Cormorant Garamond', serif;
     font-weight: bold;
     font-size: 1.75rem;
     text-decoration: none;
 }
 
+@media (min-width: 768px) {
+    .locatia {
+        font-size: 1.75rem;
+    }
+}
+
 img {
     position: relative;
-    top: 35vh;
+    top: 25vh;
     left: 35%;
     width: 20%;
     border-radius: 50%;
